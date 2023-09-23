@@ -1,0 +1,114 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.516);
+}
+nav{
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    height: 30px;
+
+}
+
+ul li{
+    list-style-type: none; /*without dash */
+    display: inline-block; /*each word next to the other */
+    /*float: left; code is not working/ Code to remove the gaps between each word */
+    line-height: 30px; /*nav height is 100px*/
+   
+}
+ul li a {
+    display: block;
+    text-decoration: none; /*remove the underline in the text*/
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 20px; /*space between each item*/
+}
+
+/*position: absolute; /*absolute: center the page
+    top: 50%;
+    left: 50%;*/
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    height: 40px; /*height of the h1*/
+    /*I am not being able to align in the center of the h1 line :( */
+}
+h2 {
+    color: rgb(255, 255, 255);
+    height: 30px;  
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-family: "Brush Script MT", cursive;
+    height: 40px;  
+}
+h4 {
+    color: rgb(255, 255, 255);
+    font-family: "Brush Script MT", cursive;
+    height: 40px;  
+}
+
+
+.center{
+    text-align: center;
+}
+img{
+    width: 100px;
+    /*border-radius: 70%; let the image round*/
+    border: 5px grey;
+
+}
+
+footer img{
+    width: 25px;
+}
+footer{
+    display: flex; /* let the image be flexible */
+    justify-content: center;/* center the image */
+    font-size:8px;
+}
+
+footer a{
+    margin: 20px; /* let a space between the images */
+    text-align: center;
+}
+footer p{
+    margin-top: 1px; /* to get closer to the image */
+    font-size: 8px;
+}
+p{
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+}
+
+#About{
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+}
+
+#AboutImg{
+    display: flex; /* place the images next to the other */
+    /*justify-content: center;  place the images in the center of the screen  */
+    justify-content: space-around;
+    text-align: center;
+    font-size: smaller;
+}
+
+section article {
+    /*display: inline-block; horizontal*/ 
+    display: block; /*display in vertical*/ 
+    justify-content: space-around;
+    text-align: center;
+
+  
+
+}   
+.portImg  {
+    text-size-adjust: 8px;
+
+}
